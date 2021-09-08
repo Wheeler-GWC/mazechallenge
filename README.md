@@ -20,6 +20,8 @@ You can assume that both the starting position and the ending position have a va
 
 You are allowed to modify the open spaces but not the walls. So if you've already visited a space with "0", you can keep track of it by changing it to a "#" for example.
 
+You can assume the maze is a rectangle (or square). Each inner array will contain the same number of spaces as the other inner arrays.
+
 What your function should return:
 
 The challenge used by Facebook was a bit more complex, but I'm going to make it a little simpler. All you have to return is the number of steps in the shortest route from start to finish. You don't have to list what those steps are, just the number of steps.
